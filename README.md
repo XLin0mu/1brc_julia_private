@@ -16,6 +16,8 @@ Platform Info:
   LLVM: libLLVM-18.1.7 (ORCJIT, alderlake)
 Threads: 24 default, 0 interactive, 24 GC (on 24 virtual cores)
 
+julia> text = init_data("./measurements.txt")
+
 julia> using Chairmarks
 
 julia> process_data(text);
